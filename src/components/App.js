@@ -34,14 +34,14 @@ const App=()=>{
             <div id='btn-7'  onClick={handleClick}>7</div>
             <div id='btn-8'  onClick={handleClick}>8</div>
             <div id='btn-9'  onClick={handleClick}>9</div>
-            <button id='btn-+'   onClick={handleClick} className="add">+</button>
+            <button id='plus'   onClick={handleClick} className="add">+</button>
             <div id='btn-4'  onClick={handleClick}>4</div>
             <div id='btn-5'  onClick={handleClick}>5</div>
             <div id='btn-6'  onClick={handleClick}>6</div>
             <div id='btn-1'  onClick={handleClick}>1</div>
             <div id='btn-2'  onClick={handleClick}>2</div>
             <div id='btn-3'  onClick={handleClick}>3</div>
-            <button id='btn-='  onClick={handleClick} className="equals">=</button>
+            <button id='equal'  onClick={handleClick} className="equals">=</button>
             <div  id='btn-0'  onClick={handleClick}>0</div>
             <div id='btn-.'   onClick={handleClick} className="dot">.</div>
            </div>
